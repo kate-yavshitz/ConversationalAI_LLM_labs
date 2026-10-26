@@ -18,3 +18,18 @@ e2e_mean_final/
 .DS_Store
 Thumbs.db.vscode/
 .vscode/
+
+# Lab2: веса моделей и чекпоинты
+lab2/llama_lora_adapter/
+lab2/llama_lora_ckpt/
+lab2/t5_finetuned/
+lab2/t5_ckpt/
+
+# Lab2: бинарные веса (на случай, если попадут в другие папки)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Lab2: кэши
+lab2/.cache/
